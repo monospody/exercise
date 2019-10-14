@@ -375,7 +375,6 @@ public class FreeClass {
 
 
     }
-// cyklus dá 10 prikladov plus kolko spravne kolko zle plus uspesnost v percentach plus meno na zaciatku
 
     public void second() {
         Random rnd = new Random();
@@ -389,7 +388,7 @@ public class FreeClass {
         String name = d2.nextLine();
 
         System.out.println("<<<<<<<");
-        System.out.println("Hi "+name+"!");
+        System.out.println("Hi "+name+"! Test is ready for you");
         System.out.println("<<<<<<<");
 
 
@@ -457,10 +456,6 @@ public class FreeClass {
 }
 
 
-
-
-
-    //dve nahodne dvojciferne cisla a vypíse príklad 17 + 38, uzivatel napíše odpoved
 
 
 
