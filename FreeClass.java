@@ -1,4 +1,5 @@
 package Other;
+import java.util.Date;
 import java.util.Scanner;
 import java.util.Random;
 
@@ -436,26 +437,28 @@ public class FreeClass {
             number++;
 
         }
+        Date endDate = new Date();
+        long endTime = endDate.getTime();
 
         System.out.println("Correct: "+correct+"/10");
         System.out.println("Bad: "+bad+"/10");
         System.out.println("Percent: "+correct*10+"%");
 
 
+        long timetime = (endTime-startTime)/1000;
 
+        if (timetime%60!=0){
+            System.out.println("Your time:"+Math.ceil(timetime/60.0) + "min. " + Math.ceil(timetime%60)+ "s. ");
 
+        }else {
+            System.out.println("Your time:"+timetime+"s.");
+        }
 
 
 
     }
 
-
-
-
-
 }
-
-
 
 
 
